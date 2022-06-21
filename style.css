@@ -1,0 +1,189 @@
+#inicio-portal-conoce {
+  margin: auto;
+  max-width: 1140px;
+}
+#inicio-portal-conoce .none {
+  margin: 0px;
+}
+
+#inicio-portal-conoce .wrapper-banner-conoce {
+  background-image: url("./image/background-image-banner-conoce.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inicio-portal-conoce .contenedor-banner-conoce-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio-portal-conoce .banner-conoce-title {
+  color: #29357c;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 48px;
+  padding: 100px 0px 0px 0px;
+  width: 400px;
+}
+
+#inicio-portal-conoce .contenedor-btn-conoce-cchc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+#inicio-portal-conoce .btn-conoce-cchc {
+  border: none;
+  padding: 20px 40px;
+  border-radius: 13px;
+  background-color: #29357c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#inicio-portal-conoce .btn-conoce-cchc:hover {
+  box-shadow: 1px 3px 15px #f5f5f5;
+  transition: all 0.3s linear;
+}
+
+#inicio-portal-conoce .wrapper-card-conoce {
+  margin: 100px 0px 0px 0px;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card5"
+    "card3 card4 card5";
+  gap: 20px;
+}
+
+#inicio-portal-conoce .card1 {
+  grid-area: card1;
+}
+
+#inicio-portal-conoce .card2 {
+  grid-area: card2;
+}
+
+#inicio-portal-conoce .card3 {
+  grid-area: card3;
+}
+
+#inicio-portal-conoce .card4 {
+  grid-area: card4;
+}
+
+#inicio-portal-conoce .card5 {
+  grid-area: card5;
+}
+
+#inicio-portal-conoce .cardBody {
+  background-color: #fff;
+}
+
+#inicio-portal-conoce .cardBody img {
+  width: 100%;
+}
+
+#inicio-portal-conoce .wrapper-contenido-card {
+  background-color: #fff;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio-portal-conoce .historia-title,
+#inicio-portal-conoce .mision-title,
+#inicio-portal-conoce .estructura-title,
+#inicio-portal-conoce .entidades-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #5c5c5c;
+}
+
+#inicio-portal-conoce .wrapper-contenido-card-organigrama {
+  background-color: #fff;
+  padding: 30px 40px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#inicio-portal-conoce .organigrama-title {
+  padding: 30px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #5c5c5c;
+}
+
+#inicio-portal-conoce .mobileImagen {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #inicio-portal-conoce .banner-conoce-title {
+    color: #29357c;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    padding: 100px 0px 0px 0px;
+    width: 400px;
+  }
+
+  #inicio-portal-conoce .wrapper-card-conoce {
+    margin: 100px 0px 0px 0px;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5";
+  }
+
+  #inicio-portal-conoce .card1 {
+    grid-area: card1;
+  }
+
+  #inicio-portal-conoce .card2 {
+    grid-area: card2;
+  }
+
+  #inicio-portal-conoce .card3 {
+    grid-area: card3;
+  }
+
+  #inicio-portal-conoce .card4 {
+    grid-area: card4;
+  }
+
+  #inicio-portal-conoce .card5 {
+    grid-area: card5;
+  }
+
+  #inicio-portal-conoce .mobileImagen {
+    display: none;
+  }
+
+  #inicio-portal-conoce .organigrama-parrafo {
+    display: none;
+  }
+
+  #inicio-portal-conoce .wrapper-contenido-card-organigrama {
+    padding: 10px 40px;
+  }
+}
